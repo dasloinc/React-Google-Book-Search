@@ -1,7 +1,7 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Overview",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -17,12 +17,20 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "nodemon": "^2.0.4 "
   },
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "if-env": "^1.0.4"
-  }
+    "if-env": "^1.0.4",
+    "mongoose": "^5.9.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasloinc/React-Google-Book-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dasloinc/React-Google-Book-Search/issues"
+  },
+  "homepage": "https://github.com/dasloinc/React-Google-Book-Search#readme"
 }

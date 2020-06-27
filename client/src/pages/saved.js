@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { DetailsBtn, DeleteBtn } from "../components/Buttons";
+import { DetailsBtn, DeleteBtn } from "../components/Buttons/index";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";

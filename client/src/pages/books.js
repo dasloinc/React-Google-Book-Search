@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Jumbotron from "../components/Jumbotron";
-import { DetailsBtn, SaveBtn, DeleteBtn } from "../components/Buttons";
+import { DetailsBtn, SaveBtn, DeleteBtn } from "../components/buttons";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
